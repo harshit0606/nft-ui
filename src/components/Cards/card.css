@@ -1,0 +1,46 @@
+.card{
+    text-align: left;
+    width: 300px;
+    background-color: white;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.card_img{
+    position: relative;
+}
+.card_img img{
+    height:170px;
+    width:300px;
+    object-fit: cover;
+}
+.heart_div{
+    background-color: white;
+    height: 40px;
+    width:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    right:10px;
+    top:150px;
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card_text{
+    padding:10px 10px;
+}
+.card_text h6{
+    font-size: 14px;
+    color: rgb(255, 55, 0);
+    margin:0;
+}
+.card_text p{
+    color: rgb(50, 50, 50);
+}
+.card_text h4{
+    color:rgb(43, 43, 43);
+    margin:5px 0px;
+}

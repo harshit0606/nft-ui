@@ -1,0 +1,126 @@
+.banner{
+    background-image: url("../../Assets/Banner1.jpg");
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.banner_text{
+    width:800px;
+    text-align: center;
+    color:white;
+    padding-bottom: 70px;
+}
+.banner_text p{
+    font-size: 26px;
+    margin:0;
+}
+.banner_text h1{
+    font-size: 120px;
+    margin:0;
+}
+.banner_text h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin:0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner_text h6{
+    font-size: 26px;
+    font-weight: 600;
+    font-style: italic;
+    margin:0;
+
+}
+.powered_by{
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:white;
+}
+.powered_by p{
+    font-size: 26px;
+
+}
+.powered_by img{
+    height:70px;
+    width: 130px;
+    object-fit: contain;
+}
+.mynft{
+    transform: translateY(-7px);
+}
+.learn_more{
+    padding:40px 100px;
+
+}
+.learn_more p{
+    font-size: 22px;
+    color:rgb(67, 67, 67);
+}
+.learn_more span{
+    color:#6357a1;
+    font-weight: 600;
+}
+.learnMore_btn{  
+    
+    padding:10px 30px;
+    border:none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    background-color: #6357a1;
+}
+.learnMore_logos{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.learnMore_logos img{
+    height: 60px;
+    width:60px;
+    object-fit: contain;
+   margin-left: 10px;
+   margin-right: 10px;
+
+}
+.learn_more h3{
+    color:#6357a1;
+    font-size: 27px;
+    font-weight: 500;
+    font-style:italic;
+}
+.upcoming{
+    background-color: rgb(34, 34, 34);
+    color:white;
+    padding:20px 10px;
+}
+.cards_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.connect{
+    padding:40px 100px;
+}
+.connect h3{
+    color:#6357a1;
+    font-size: 27px;
+    font-weight: 500;
+    font-style:italic;
+}
+.connect p{
+    font-size: 22px;
+    color:rgb(67, 67, 67);
+}
