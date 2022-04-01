@@ -15,7 +15,7 @@ function Header() {
       <Link to="/"><img src={Logo}/></Link>
       </div>
       <div className="header_3">
-        <Link to="contact"><h1>CONTACT US</h1></Link>
+        <Link to="contactus"><h1>CONTACT US</h1></Link>
         <button className="mint_button"><img src={Arrow}/>MINT TICKET</button>
       </div>
     </div>
