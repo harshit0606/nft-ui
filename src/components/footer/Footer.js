@@ -17,7 +17,7 @@ function Footer() {
                 <Link to="/about"><p>About Us</p></Link>
                 <Link to="/#events"><p>Events</p></Link>
                 <Link to="/faq"><p>FAQ's</p></Link>
-                <Link to="/contact"><p>Contant Us</p></Link>
+                <Link to="/contactus"><p>Contant Us</p></Link>
             </div>
         </div>
         <div className='footer2'>
@@ -26,7 +26,7 @@ function Footer() {
                 <div className='footer_icon'><BsInstagram/></div>
             </div>
             <div className='footer_mint'>
-            <button className="mint_button"><img src={Arrow}/>MINT TICKET</button>
+            <button className="mint_button2"><img src={Arrow}/>MINT TICKET</button>
             </div>
 
         </div>

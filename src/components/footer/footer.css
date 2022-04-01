@@ -68,3 +68,21 @@
     margin-bottom: 10px;
     font-weight: 300;
 }
+.mint_button2{
+    border:2px solid #6357a1;
+    background-color: black;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding:5px 10px;
+    font-size: 18px;
+}
+.mint_button2 img{
+    height:25px;
+    width:25px;
+    margin-right: 10px;
+    object-fit: contain;
+}
