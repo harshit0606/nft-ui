@@ -1,3 +1,6 @@
+.home{
+    overflow-x: hidden;
+}
 .banner{
     background-image: url("../../Assets/Banner1.jpg");
     object-fit: contain;
@@ -108,6 +111,7 @@
 .cards_div{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
 }
@@ -123,4 +127,47 @@
 .connect p{
     font-size: 22px;
     color:rgb(67, 67, 67);
+}
+@media(max-width:700px){
+    .banner_text h1{
+        font-size: 45px;
+    }
+    .banner_text h2{
+        font-size: 20px;
+    }
+    .banner_text h6{
+        font-size: 20px;
+    }
+    .powered_by p{
+        font-size: 14px;
+    }
+    .powered_by{
+        width:300px
+    }
+    .powered_by img{
+        height: 50px;
+        width:80px;
+    }
+    .learn_more p{
+        font-size: 16px;
+    }
+    .learn_more{
+        padding:40px 30px;
+    }
+    .learnMore_logos img{
+        height: 40px;
+        width: 40px;
+    }
+    .learn_more h3{
+        font-size: 20px;
+    }
+    .connect{
+        padding:40px 30px;
+    }
+    .connect h3{
+        font-size: 20px;
+    }
+    .connect p{
+        font-size: 16px;
+    }
 }

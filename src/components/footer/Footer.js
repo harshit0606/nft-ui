@@ -22,7 +22,7 @@ function Footer() {
         </div>
         <div className='footer2'>
             <div className='footer_icons'>
-                <div className='footer_icon'><AiOutlineTwitter/></div>
+                <Link to="https://twitter.com/cryptoclubevent" style={{color:"#6357a1"}}><div className='footer_icon'><AiOutlineTwitter/></div></Link>
                 <div className='footer_icon'><BsInstagram/></div>
             </div>
             <div className='footer_mint'>
@@ -32,7 +32,7 @@ function Footer() {
         </div>
        
     </div>
-    <p>Copyright Crypto Club Events</p>
+    <p className='copyright'>Copyright Crypto Club Events</p>
     </div>
   )
 }

@@ -1,11 +1,35 @@
 import React, { useState } from "react";
 import "./contactus.css";
+import emailjs from "emailjs-com";
 function ContactUs() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [company, setCompany] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+
+  var template_params={
+    name:name,
+    email:email,  
+    company:company,
+    subject:subject,
+    message:message
+  };
+  function sendmail(e){
+    e.preventDefault();
+    emailjs.send("service_p0at8ol","template_fpqahjc",template_params,"-2kTWjsAZyzK_cvAs")
+    .then(function(response) {
+      console.log('SUCCESS!', response.status, response.text);
+   }, function(error) {
+      console.log('FAILED...', error);
+   });
+   setEmail("");
+   setName("");
+   setCompany("");
+   setSubject("");
+   setMessage("");
+  }
+
 
   const handleChange=(e)=> {
     e.preventDefault();
@@ -92,7 +116,7 @@ function ContactUs() {
             ></textarea>
           </div>
         </div>
-        <button className="sendMessage_btn">Send Message</button>
+        <button onClick={sendmail} className="sendMessage_btn" >Send Message</button>
       </div>
     </div>
   );

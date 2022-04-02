@@ -56,6 +56,6 @@
     display: flex;
     align-items: center;
 }
-.card_text ul{
+@media(max_width:600px){
     
 }

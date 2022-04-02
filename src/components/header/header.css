@@ -51,3 +51,65 @@
     margin-right: 10px;
     object-fit: contain;
 }
+.header_phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100000;
+    position: sticky;
+    display: none;
+    padding:20px 40px;
+}
+.header_phone img{
+    width:60px;
+    height:60px
+}
+.header_menu{
+    position: fixed;
+    height:120vh;
+    top:0;
+    z-index:100000;
+    right:-70%;
+    background-color: white;
+    width:70%;
+    
+    transition: all .5s ease-in;
+}
+.close{
+    position: absolute;
+    right: 30px;
+    top:40px;
+}
+
+.menu{
+    margin-top: 105px;
+ 
+    height: 90vh;
+}
+
+.menu h1{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.menu .mint_button{
+    margin-top: 120px;
+    height: 35px;
+    margin-left: 20%;
+}
+.menu .mint_button img{
+    height: 20px;
+    width:20px;
+}
+.header_menu.active{
+    right:0;
+    z-index:100000;
+}
+@media(max-width:700px){
+    .header{
+        display: none;
+    }
+    .header_phone{
+        display: flex;  
+    }
+}
