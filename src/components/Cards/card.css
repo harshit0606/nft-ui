@@ -6,14 +6,22 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
+    transition: all 0.3s ease-in;
+    border-radius: 10px;
+}
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
 .card_img{
     position: relative;
 }
 .card_img img{
     height:170px;
-    width:300px;
+    width:290px;
     object-fit: cover;
+    border-radius:10px 10px 0px 0; 
+    border:5px solid white;
 }
 .heart_div{
     background-color: white;
@@ -30,7 +38,7 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .card_text{
-    padding:10px 10px;
+    padding:10px 20px;
 }
 .card_text h6{
     font-size: 14px;
@@ -39,8 +47,15 @@
 }
 .card_text p{
     color: rgb(50, 50, 50);
+    font-size: 14px;
 }
 .card_text h4{
     color:rgb(43, 43, 43);
+    font-size: 16px;
     margin:5px 0px;
+    display: flex;
+    align-items: center;
+}
+.card_text ul{
+    
 }

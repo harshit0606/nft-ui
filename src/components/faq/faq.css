@@ -1,4 +1,8 @@
-.learn_more h2{
-    color:#6357a1;
-    font-size: 30px;
+
+.faq_div{
+    padding: 50px 100px;
+    text-align: left;
+}
+.faq_div p{
+    text-align: left;
 }
