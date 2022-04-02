@@ -1,0 +1,98 @@
+.singleEvent1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.singleEvent11{
+    flex:0.5;
+    text-align: left;
+    padding: 30px 100px;
+}
+.singleEvent11 h1{
+    font-size: 60px;
+}
+.singleEvent11 h5{
+    font-size: 24px;
+    font-weight: 400;
+}
+.singleEvent12{
+    flex:0.5;
+}
+.singleEvent12 img{
+    width:650px;
+}
+.singleEvent2{
+    display: flex;
+    padding:40px 10px;
+}
+.event_date{
+    display: flex;
+    align-items: center;
+    flex:0.2;
+    padding-left: 20px;
+}
+.event_venue{
+    display: flex;
+    align-items: center;
+    flex:0.5;
+}
+.ticket_div{
+    flex:0.3;
+}
+.singleEvent3{
+    display: flex;
+    background-color: rgb(231, 231, 231);
+}
+.heading_left{
+    flex:0.4;
+    text-align: left;
+    padding:30px 50px;
+    color: rgb(89, 89, 89);
+}
+.heading_left h2{
+    font-size: 28px;
+}
+.heading_left hr{
+    width:30px;
+    margin-left: 0px;
+    margin-top: -15px;
+}
+.event_data{
+    flex:0.6;
+    text-align: left;
+    padding:40px 50px;
+     
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.singleEvent4{
+    display: flex;
+}
+.calender{
+    font-size: 30px;
+    color:#E74B8C;
+    padding:0 10px;
+}
+.singleEvent_data{
+    text-align: left;
+    color:rgb(89, 89, 89);
+}
+.singleEvent_data h4{
+    margin:0;
+}
+.singleEvent_data p{
+    margin:0;
+    font-size: 14px;
+    color:#eb2e7d;
+}
+.buyTickets_btn{
+    background: rgb(249,0,80);
+    background: linear-gradient(90deg, rgba(249,0,80,1) 0%, rgba(227,59,129,1) 35%, rgba(231,0,96,1) 100%);
+    color: white;
+    font-size: 14px;
+    padding:10px 60px;
+    border-radius: 5px;
+    border:none;
+}

@@ -7,17 +7,19 @@ function Card(props) {
   return (
     <div className='card'>
         <div className='card_img'>
-            <img src={img1}/>
+            <img src={props.img}/>
             <div className='heart_div'>
             <BiHeart/>
             </div>
             <div className='card_text'>
             <h3>{props.title}</h3>
             <h6>{props.time}</h6>
-            <p>{props.venue}</p>
-            <p>Starts at {props.price}</p>
+            <ul>
+            <li><p>{props.venue}</p></li>
+            <li><p>Starts at {props.price}</p></li>
+            </ul>
             <h4>{props.name}</h4>
-            <h4><BsFillPersonFill/>{props.followers} followers</h4>
+            <h4><BsFillPersonFill style={{fontSize:"22px"}}/>&nbsp;&nbsp;{props.followers} followers</h4>
             </div>
         </div>
     </div>
