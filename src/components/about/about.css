@@ -6,3 +6,11 @@
 }
 a{text-decoration: none!important;
     color:rgb(37, 37, 37)}
+
+@media(max-width:700px){
+    .banner_h1{
+        font-size: 35px;
+        margin-bottom: 100;
+        margin-top: 50px;
+    }
+}

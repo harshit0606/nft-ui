@@ -1,5 +1,4 @@
 .contact_main{
-    
     background-color: #6358A6;
     padding:30px 150px;
     color:white;
@@ -10,7 +9,7 @@
 
 }
 .contact_input{
-    flex:0.4;
+    flex:0.48;
     color:white;
     text-align: left;
 }
@@ -25,18 +24,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    width:100%;
 }
 
 .contact_input input{
     background-color: #272652;
+    width:100%;
     color:white;
     height:30px;
-    width:400px;
     border:none;
     border-radius: 25px;
     font-size: 20px;
-    padding:10px 30px;
+    padding:10px 10px;
     outline: none;
 }
 .contact_textarea{
@@ -45,17 +44,18 @@
 .contact_textarea textarea{
     background-color: #272652;
     color:white;
-    width:93%;
+    width:100%;
     border:none;
     border-radius: 25px;
     font-size: 20px;
-    padding:10px 30px;
+    padding:10px 0px;
     outline: none;
 }
 
 ::placeholder{
     color:white!important;
     font-size: 16px;
+    padding-left: 20px;
 }
 .sendMessage_btn{
     padding:10px 30px;
@@ -66,4 +66,41 @@
     color: white;
     background-color: #272652;
     margin-top: 20px;
+}
+@media(max-width:900px){
+    .contact_main{
+        padding:30px 40px;
+    }
+   
+}
+@media(max-width:800px){
+    .contact_row{
+        flex-direction: column;
+        width:100%;
+        flex:1;
+    }
+    .contact_input{
+       width:100%;
+       flex:0.8;
+    }
+    .contact_form{
+        padding: 40px 30px;
+    }
+    .contact_textarea textarea{
+        width:100%;
+    }
+    ::placeholder{
+        padding-left: 15px;
+    }
+}
+@media(max-width:450px){
+    .contact_form{
+        padding:20px 20px;
+    }
+    .contact_input input{
+        height: 25px;
+    }
+    .contact_main{
+        padding:30px 20px;
+    }
 }

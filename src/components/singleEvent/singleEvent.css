@@ -19,7 +19,7 @@
     flex:0.5;
 }
 .singleEvent12 img{
-    width:650px;
+    width:100%;
 }
 .singleEvent2{
     display: flex;
@@ -95,4 +95,83 @@
     padding:10px 60px;
     border-radius: 5px;
     border:none;
+}
+@media(max-width:1000px){
+    .singleEvent12 img{
+        width:100%;
+    }.singleEvent11{
+        flex:0.3;
+        padding: 30px 50px;
+    }
+    .singleEvent12{
+        flex:0.7;
+    }
+    .singleEvent11 h1{
+        font-size: 50px;
+    }.heading_left{
+        flex:0.3;
+    }
+    .event_data{
+        flex:0.7;
+        padding:40px 20px;
+    }
+}
+@media(max-width:700px){
+    .singleEvent1{
+        flex-direction: column-reverse;
+    }
+    .singleEvent11{
+       
+       text-align: center;
+    }
+}
+@media(max-width:500px){
+    .singleEvent11{
+        padding: 10px 50px;
+    }
+    .singleEvent2{
+        flex-direction: column;
+        text-align: center;
+    }
+    .event_date{
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .event_venue{
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .ticket_div{
+        justify-content: center;
+    }
+    .singleEvent3{
+        flex-direction: column;
+
+    }
+    .heading_left{
+        padding-bottom: 0px;
+    }
+    .event_data{
+        padding:0px 50px;
+    }
+    .singleEvent4{
+        flex-direction: column;
+    }
+}
+@media(max-width:450px){
+    .heading_left {
+        padding:20px 20px;
+    }
+    .singleEvent11 h1{
+        font-size: 35px;
+    }
+    .singleEvent11 h5{
+        font-size: 20px;
+    }
+    .event_data{
+        padding:20px 20px;
+    }
+    .event_data p{
+        font-size: 14px;
+    }
 }

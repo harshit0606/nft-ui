@@ -12,6 +12,7 @@
     justify-content: center;
     background-color:black;
     color:white;
+    flex-wrap: wrap;
 }
 .footer1{
     display: flex;
@@ -28,7 +29,7 @@
 }
 .footer_logo img{
     height: 300px;
-    width:300;
+    width:300px;
 }
 .footer2{
     flex:0.5;
@@ -85,4 +86,32 @@
     width:25px;
     margin-right: 10px;
     object-fit: contain;
+}
+.copyright{
+
+}
+@media(max-width:600px){
+    .footer1{
+        flex-direction: column;
+    }
+    .footer_logo img{
+        height: 200px;
+        width: 200px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer_links{
+        margin-bottom: 40px;
+    }
+    .copyright{
+        margin: 0 !important;;
+        margin-top: 20px!important;
+        font-size: 12px!important;
+    }
+    .mint_button2{
+        font-size: 12px;
+        min-width: 150px;
+        margin-left: 40px;
+    }
 }
