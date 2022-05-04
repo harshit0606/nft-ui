@@ -5,6 +5,7 @@ import Arrow from "../../Assets/Arrow.png";
 import { Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 import { GiHamburgerMenu } from "react-icons/gi";
+
 function Header() {
   const navigate=useNavigate();
   
@@ -59,10 +60,11 @@ function Header() {
           <Link to="/contactus">
             <h1>CONTACT US</h1>
           </Link>
-          <button className="mint_button">
+          <a href="https://nft-ticketing-system.vercel.app/"><button className="mint_button">
             <img src={Arrow} />
             MINT TICKET
           </button>
+          </a>
         </div>
       </div>
       <div className="header_phone">
@@ -87,10 +89,10 @@ function Header() {
       
             <hr></hr>
                <h1 onClick={(e)=>{handleLinkClick(e,"/contactus")}}>CONTACT US</h1>
-            <button className="mint_button">
+               <a href="https://nft-ticketing-system.vercel.app/"><button className="mint_button">
               <img src={Arrow} />
               MINT TICKET
-            </button>
+            </button></a>
           </div>
         </div>
       </div>
